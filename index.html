@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Probability</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .col-xs-3 {
+            padding: 0 20px;
+        }
+        .row{
+            display:flex; justify-content: center;
+        }
+    </style>
+</head>
+
+<body style="text-align: center">
+    <div class="container-fluid" >
+        <div class="row">
+                <div class="card bg-ligh">
+                    <div class="card-body">
+                        <h4 class="card-title">C1: Red - Red</h4>
+                        <button type="button" class="btn btn-danger">Front</button> <button
+                                type="button" class="btn btn-danger">Back</button>
+                    </div>
+                </div>
+                <div class="card bg-ligh">
+                        <div class="card-body">
+                            <h4 class="card-title">C2: Red - Green</h4>
+                            <button type="button" class="btn btn-danger">Front</button> <button
+                                    type="button" class="btn btn-success">Back</button>
+                        </div>
+                    </div>
+                    <div class="card bg-ligh">
+                            <div class="card-body">
+                                <h4 class="card-title">C3: Green - Green</h4>
+                                <button type="button" class="btn btn-success">Front</button> <button
+                                        type="button" class="btn btn-success">Back</button>
+                            </div>
+                        </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-3">
+                <div class="form-group">
+                    <label for="">Times to pull</label>
+                    <input type="number" name="" id="numberRoll" class="form-control" placeholder="Số mặt trên lá bài"
+                        value="1000">
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-bottom: 20px;">
+            <button id="Roll" type="button" class="btn btn-primary" >Calculator</button>
+        </div>
+        <div id="resultProbility">
+
+        </div>
+        <div class="row">
+            <div id="result" style="display: flex; justify-content: center;flex-wrap: wrap;">
+                
+            </div>
+            
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script> -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
