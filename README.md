@@ -1,2 +1,2 @@
 # Probility and Statistic
-Tìm xác xuất khi tìm thẻ bài
+Rút ngẫu nhiên từ trong thẻ bài
